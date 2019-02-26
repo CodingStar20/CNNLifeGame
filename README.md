@@ -4,14 +4,21 @@ use cnn to simulate Game of Life.
 You can star this repository to keep track of the project if it's helpful for you, thank you for your support.
 ```
 
+# Preview
+![giphy](./results/1.gif)
+![giphy](./results/2.gif)  
+![giphy](./results/3.gif)
+![giphy](./results/4.gif)
+
 # Introduction in Chinese
-prepare
+https://mp.weixin.qq.com/s/7_Do3TNG5tlUPE1pn-dd9w
 
 # Dependencies
 - pytorch==0.4.1
 - imageio
 - argparse
 - matplotlib
+- numpy
 
 # Environment
 - Ubuntu 16.04(train) / Windows10(test)
@@ -39,7 +46,7 @@ run "python train.py"
 # Test
 ```sh
 Command format:
-	python demo.py -m model_path"
+	python demo.py -m model_path
 for example:
 	python demo.py -m weights/epoch_10.pkl
 ```
