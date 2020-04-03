@@ -5,59 +5,50 @@ You can star this repository to keep track of the project if it's helpful for yo
 ```
 
 # Preview
-![giphy](./results/1.gif)
-![giphy](./results/2.gif)  
-![giphy](./results/3.gif)
-![giphy](./results/4.gif)
+![giphy](./docs/1.gif)
+![giphy](./docs/2.gif)  
+![giphy](./docs/3.gif)
+![giphy](./docs/4.gif)
 
-# Introduction in Chinese
+# Introduction
+#### in Chinese
 https://mp.weixin.qq.com/s/7_Do3TNG5tlUPE1pn-dd9w
 
-# Dependencies
-- pytorch==0.4.1
-- imageio
-- argparse
-- matplotlib
-- numpy
-
 # Environment
-- Ubuntu 16.04(train) / Windows10(test)
-- python 3.5+(have installed the neccessary dependencies)
-- Graphics: Tian XP(train) / 1050Ti(test)
+```
+OS: Ubuntu16.04(train)/Windows10(test)
+Graphics card: Tian XP(train)/1050Ti(test)
+Python: Python3.5+(have installed the neccessary dependencies)
+```
 
-# Model I used
+# Model Structure
 #### baseline
-![img](./material/model.jpg)
+![img](./docs/model.jpg)
 
-# Train
-#### Step1
-```sh
-Install the neccessary dependencies.
+# Usage
+#### Train
 ```
-#### Step2
-```sh
-Modify line20-25 in train.py according to your needs.
+Modify line20-25 in train.py according to your needs, and then run:
+python train.py
 ```
-#### Step3
-```sh
-run "python train.py"
+#### Test
 ```
+usage: demo.py [-h] [-m MODEL]
 
-# Test
-```sh
-Command format:
-	python demo.py -m model_path
-for example:
-	python demo.py -m weights/epoch_10.pkl
+use cnn to simulate Game of Life.
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -m MODEL    The trained model path.
 ```
 
 # Result
-### train
-![img](./results/vis.jpg)
-### test
-![giphy](./results/result.gif)
+#### train
+![img](./docs/vis.jpg)
+#### test
+![giphy](./docs/result.gif)
 
 # More
 #### WeChat Official Accounts
 *Charles_pikachu*  
-![img](./material/pikachu.jpg)
+![img](./docs/pikachu.jpg)
