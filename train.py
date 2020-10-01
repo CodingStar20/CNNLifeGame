@@ -6,9 +6,9 @@ Author:
 微信公众号:
 	Charles的皮卡丘
 '''
-import os
-import time
-import torch
+from os import *
+from time import *
+from torch import *
 import random
 import numpy as np
 import torch.nn as nn
